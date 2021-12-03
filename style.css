@@ -1,4 +1,24 @@
 body{
     background-color: blueviolet;
     color: yellowgreen;
+    overflow: hidden;
+}
+h1, h2{
+    color: #fff;
+    font-size: 36px;
+    padding: 0 0 0 30vw;
+}
+p{
+    font-size: 16px;
+    font-weight: 600;
+    animation: alt 30s infinite;
+}
+
+@keyframes alt {
+    90% {
+        transform: translateX(60vw);
+    }
+    to{
+        transform: translateX(-20vw);
+    }
 }
